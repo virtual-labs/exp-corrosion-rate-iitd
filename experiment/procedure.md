@@ -1,5 +1,5 @@
 ### Thsese steps will be followed for the experiemnt
-**PRE EXPRIMENT QUIZ QUESTIONS**
+**PRE EXPRIMENT TASK**
 
 1) What is non-destructive evaluation (NDE)?<br>
 2) What is structure health monitoring (SHM) and why it is necessary to
@@ -81,7 +81,7 @@ do SHM?<br>
 
 <img src="images/bpr15.png"/>
 
-**POST EXPRIMENT QUIZ QUESTIONS**
+**POST EXPRIMENT TASK**
 
 1) Plot graph comparing signatures for pristine and corroded bare and
 embedded rebars?<br>
