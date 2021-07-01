@@ -14,8 +14,6 @@ In the accelerated corrosion experiments of bare rebar, following components are
 - Beaker containing brine solution whose salinity is 35 parts per thousand.
 
 For accelerated corrosion experiments in embedded rebars, the components are same except that a 150 x 150 x 150 mm concrete cube with an embedded bar replaces the bare rebar the setup for accelerating corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively.
- 
-<img src="images/exp2.png" height="400px"/>
 
 **EXPERIMENTAL PROCEDURE**
 <br>
