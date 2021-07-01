@@ -28,6 +28,7 @@ Figure 2: Setup for accelerating corrosion (a) Bare rebar (b) Reinforced Concret
 To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
 
 <img src="images/th2.png" height="120px"/>
+
 Where
 <br>
 
