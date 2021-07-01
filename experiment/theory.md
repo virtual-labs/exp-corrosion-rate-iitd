@@ -20,9 +20,14 @@ For accelerated corrosion experiments in embedded rebars, the components are sam
 The setup for accelerating corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively.
 Through this animation, the user can visualize the process of accelerated corrosion and can obtain signatures of the PZT patch bonded to rebar during various stages. <br>Figure 2 shows a screenshot of the animation.
 The user can visualize the data in by plotting in excel and study the changes in signature with increasing corrosion.
+ 
+<img src="images/exp2.png" height="400px"/>
+
+Figure 2: Setup for accelerating corrosion (a) Bare rebar (b) Reinforced Concrete
+
+To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
 
 <img src="images/th2.png" height="90px"/>
-
 Where
 <br>
 
