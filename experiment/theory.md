@@ -4,7 +4,7 @@ Corrosion of steel reinforcement is one of the main causes of damage and prematu
 
 <img src="images/exp1.png" height="400px"/> 
 
-Figure 1: Data acquisition setup for accelerated corrosion in (a) bare rebar (b) embedded rebar
+<b>Figure 1:</b> Data acquisition setup for accelerated corrosion in (a) bare rebar (b) embedded rebar
 
 **EXPERIMENTAL DETAILS**
 <br>
@@ -23,7 +23,7 @@ The user can visualize the data in by plotting in excel and study the changes in
  
 <img src="images/exp2.png" height="400px"/>
 
-Figure 2: Setup for accelerating corrosion (a) Bare rebar (b) Reinforced Concrete
+<b>Figure 2:</b> Setup for accelerating corrosion (a) Bare rebar (b) Reinforced Concrete
 
 To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
 
@@ -32,10 +32,10 @@ To statistically quantify damage, compute root mean square deviation (RMSD) in c
 Where
 <br>
 
-G<sup>0</sup><sub>i</sub> = Baseline conductance value at i<sup>th</sup> frequency.<br>
+G<sub>i</sub><sup>0</sup> = Baseline conductance value at <i>i<sup>th</sup></i> frequency.<br>
 
-G<sub>i</sub><sup>1</sup> = Conductance value after a damage at i<sup>th</sup> frequency.<br>
+G<sub>i</sub><sup>1</sup> = Conductance value after a damage at <i>i<sup>th</sup></i> frequency.<br>
 
-n = No. of frequency data points<br>
+<i>n</i> = No. of frequency data points<br>
 
 As an exercise plot a histogram of RMSD for the various damaged states. Note your observations and draw conclusions
