@@ -1,5 +1,6 @@
-### Thsese steps will be followed for the experiemnt
-**PRE EXPRIMENT TASK**
+### These steps will be followed for the experiemnt
+
+**PRE EXPERIMENT TASK**
 
 1) What is non-destructive evaluation (NDE)?<br>
 2) What is structure health monitoring (SHM) and why it is necessary to
@@ -9,65 +10,69 @@ do SHM?<br>
 5) What components are needed for accelerating corrosion in laboratory?<br>
 
 
-**Select First One Experiment**
+**Select experiment for bare rebar**
 <br>
 <img src="images/pr1.png"/>
 <br><br>
 <img src="images/pr2.png"/>
 
 **Step 1**
-<br>
-(a) Click on Add Button to bring Empty Tank.<br>
-(b) Click on Tank to Place it on the position.<br>
+
+
+(a) Click on add button to bring empty tank.
+
+(b) Click on tank to place it on the position.
+
 
 <img src="images/pr3.png"/>
 
-(C) Click on Add Button to bring Brine Solution.
+(C) Click on add button to bring brine solution.
 
 <img src="images/pr4.png"/>
 
-
-(d) Click on Brine Solution to pour it into the Tank.
+(d) Click on brine solution to pour it into the tank.
 
 <img src="images/pr5.png"/>
 
 
-(e) Click on Add Button to bring Bare Rebar Holder.
+(e) Click on add button to bring bare rebar holder.
 
 <img src="images/pr6.png"/>
 
+(f) Click on add button to bring bare rebar.
 
-(f) Click on Add Button to bring Bare Rebar.
-(g) Click on Bare Rebar to fix it on the Bare Rebar Holder.
+(g) Click on bare rebar to fix it on the bare rebar holder.
 
 <img src="images/pr7.png"/>
 
-(h) Click on Add Button to bring Copper Rod Holder.
+(h) Click on add button to bring copper rod holder.
 
 <img src="images/pr8.png"/>
 
-(i) Click on Add Button to bring Copper Rod.
-(j) Click on Copper Rod to fix it on the Copper Rod Holder.
+(i) Click on add button to bring copper rod.
+
+(j) Click on copper rod to fix it on the copper rod holder.
 
 <img src="images/pr9.png"/>
 
-(k) Now click on Next Button.
+(k) Now click on next button.
 
 <img src="images/pr10.png"/>
 
 **Step 2**
 
-(a) Click on Black Clip to attach wire with Copper Rod.
-(b) Click on Red Clip to attach wire with Bare Rebar.
+(a) Click on black clip to attach wire with copper rod.
+
+(b) Click on red clip to attach wire with bare rebar.
 
 <img src="images/pr11.png"/>
 
-(c) Now click on Next Button.
+(c) Now click on next button.
 
 <img src="images/pr12.png"/>
 
 **Step 3**
-(a) show the Condition of RC Specimen.
+(a) Show the condition of RC specimen.
 
 <img src="images/bpr13.png"/>
 
@@ -77,11 +82,11 @@ do SHM?<br>
 <img src="images/bpr14.png"/>
 
 **Step 5**
-(a) Select Option and Download Report.
+(a) Select option and download report.
 
 <img src="images/bpr15.png"/>
 
-**POST EXPRIMENT TASK**
+**POST EXPERIMENT TASK**
 
 1) Plot graph comparing signatures for pristine and corroded bare and
 embedded rebars?<br>
