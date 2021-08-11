@@ -6,7 +6,7 @@ Corrosion of steel reinforcement is one of the main causes of damage and prematu
 <img src="images/exp1.png" height="400px"/> 
 
 <b>Figure 1:</b> Data acquisition setup for accelerated corrosion in (a) bare rebar (b) embedded rebar
-<center>
+</center>
  
 **EXPERIMENTAL DETAILS**
 <br>
