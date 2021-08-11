@@ -1,4 +1,4 @@
-### Introduction
+### Theory
 
 Corrosion of steel reinforcement is one of the main causes of damage and premature failure of reinforced concrete structures, increasing the costs for inspection, maintenance, restoration, and replacement of infrastructure. Recently, Talakokula and Bhalla (2015) proposed a new corrosion assessment approach based on the mechanical impedance EMI technique (Refer thesis of Dr. Vislalakshi Talakokula. for more information <a href="images/visalakshi.pdf">thesis pdf</a>. Figures 1(a) and (b) present the experimental setup for the rebar corrosion related laboratory experiments for bare rebar and embedded rebar respectively.
 
@@ -29,7 +29,7 @@ To statistically quantify damage, compute root mean square deviation (RMSD) in c
 
 <img src="images/th2.png" height="120px"/>
 
-Where
+where
 <br>
 
 G<sub>i</sub><sup>0</sup> = Baseline conductance value at <i>i<sup>th</sup></i> frequency.<br>
