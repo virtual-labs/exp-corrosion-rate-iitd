@@ -31,6 +31,7 @@ The user can visualize the data in by plotting in excel and study the changes in
  
 To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
 
+
 <img src="images/th2.png" height="120px"/>
 
 where
