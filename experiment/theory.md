@@ -9,7 +9,8 @@ Corrosion of steel reinforcement is one of the main causes of damage and prematu
 </center>
  
 **EXPERIMENTAL DETAILS**
-<br>
+
+
 In the accelerated corrosion experiments of bare rebar, following components are used:
 - Copper rod acting as Cathode.
 - Bare rebar acting as Anode.
