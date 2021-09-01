@@ -16,17 +16,17 @@ In the accelerated corrosion experiments of bare rebar, following components are
 - PZT bonded to rebar which is further connected to LCR meter by electrodes.
 - Beaker containing brine solution whose salinity is 35 parts per thousand.
 
-For accelerated corrosion experiments in embedded rebars, the components are same except that a 150 x 150 x 150 mm concrete cube with an embedded bar replaces the bare rebar the setup for accelerating corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively.
+For accelerated corrosion experiments in embedded rebars, the components are same except that a 150 x 150 x 150 mm concrete cube with an embedded bar replaces the bare rebar the setup for accelerated corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively.
 
 **EXPERIMENTAL PROCEDURE**
 <br>
-The setup for accelerating corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively. Through this animation, the user can visualize the process of accelerated corrosion and can obtain signatures of the PZT patch bonded to rebar during various stages. Figure 2 shows a screenshot of the animation.
+The setup for accelerated corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively. Through this animation, the user can visualize the process of accelerated corrosion and can obtain signatures of the PZT patch bonded to rebar during various stages. Figure 2 shows a screenshot of the animation.
 The user can visualize the process by plotting in excel and observe the changes in signature with increasing corrosion.
 
 <center>
 <img src="images/exp2.png" height="400px"/>
 
-<b>Figure 2:</b> Setup for accelerating corrosion (a) Bare rebar (b) Reinforced Concrete
+<b>Figure 2:</b> Setup for accelerated corrosion (a) Bare rebar (b) Reinforced Concrete
 </center>
  
 To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
