@@ -1,0 +1,25 @@
+[{
+	"question": "Q1. PZT Patch connect with",
+	"answers": {
+		"a": "Copper rod",
+		"b": "Bare rebar",
+		"c": "Power supply",
+		"d": "Tank"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q2. We attach one wire with Copper rod and another with bare rebar",
+	"answers": {
+		"a": "True",
+		"b": "False"
+		
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q3. Does the experimental data measured during actual accelerated corrosion tests carried out on reinforced concrete (RC) structures ?",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}]

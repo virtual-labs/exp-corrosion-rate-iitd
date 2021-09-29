@@ -1,0 +1,26 @@
+[{
+	"question": "Q1. In the accelerated corrosion experiments of bare rebar, components are used:",
+	"answers": {
+		"a": "Copper rod",
+		"b": "Bare rebar",
+		"c": "PZT patchs bonded to rebar",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q2. In this experiment which solution we use ?",
+	"answers": {
+		"a": "Brine solution",
+		"b": "Hydrogen solution",
+		"c": "Nitrogen solution",
+		"d": "Potassium"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q3. Corrosion of steel reinforcement is one of the main causes of damage and premature failure of reinforced concrete structures",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}]
