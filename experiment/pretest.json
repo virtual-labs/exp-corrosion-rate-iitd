@@ -8,19 +8,21 @@
 	},
 	"correctAnswer": "d"
 }, {
-	"question": "Q2. In this experiment which solution we use ?",
+	"question": "Q2. In this experiment which solvent is used?",
 	"answers": {
 		"a": "Brine solution",
-		"b": "Hydrogen solution",
-		"c": "Nitrogen solution",
-		"d": "Potassium"
+		"b": "HCI",
+		"c": "H2SO4",
+		"d": "None of the above"
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Q3. Corrosion of steel reinforcement is one of the main causes of damage and premature failure of reinforced concrete structures",
+	"question": "Q3. In the experiment the rebar is made as",
 	"answers": {
-		"a": "True",
-		"b": "False"
+		"a": "Anode",
+		"b": "Cathode",
+		"c": "Both a & b",
+		"d": "None of the above"
 	},
 	"correctAnswer": "a"
 }]
