@@ -12,12 +12,14 @@ Corrosion of steel reinforcement is one of the main causes of damage and prematu
 
 In the accelerated corrosion experiments of bare rebar, following components are used:
 
-<ul>
- <li>Copper rod acting as Cathode.</li> 
- <li>Bare rebar acting as Anode.</li>
- <li>PZT patchs bonded to rebar which is further connected to LCR meter by electrodes.</li>
- <li>Beaker containing brine solution whose salinity is 35 parts per thousand.</li> 
-</ul>
+ - Copper rod acting as Cathode.
+ 
+ - Bare rebar acting as Anode.
+ 
+ - PZT patchs bonded to rebar which is further connected to LCR meter by electrodes.
+ 
+ - Beaker containing brine solution whose salinity is 35 parts per thousand.
+
 
 For accelerated corrosion experiments in embedded rebars, the components are same except that a 150 x 150 x 150 mm concrete cube with an embedded bar replaces the bare rebar the setup for accelerated corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and (b) respectively.
 
