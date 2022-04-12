@@ -1,9 +1,9 @@
 ### Theory
 
-The corrosion of steel reinforcement is one of the main causes of damage and premature failure of reinforced concrete structures, increasing the costs for inspection, maintenance, restoration, and replacement of infrastructure. Recently, Dr. Talakokula and Prof. Bhalla (2015) proposed a new corrosion assessment approach based on the mechanical impedance EMI technique (Refer thesis of Dr. Vislalakshi Talakokula for more information) <a href="images/visalakshi.pdf">click here</a>. Figures 1(a) and 1(b) present the experimental setup for the rebar corrosion related laboratory experiments for bare rebar and embedded rebar respectively.
+The corrosion of steel reinforcement is one of the main causes of damage and premature failure of reinforced concrete structures, increasing the costs for inspection, maintenance, restoration, and replacement of infrastructure. Recently, Dr. Talakokula and Prof. Bhalla (2015) proposed a new corrosion assessment approach based on the mechanical impedance EMI technique (Refer thesis of Dr. Vislalakshi Talakokula for more information) <a href="images/visalakshi.pdf" target="_blank">click here</a>. Figures 1(a) and 1(b) present the experimental setup for the rebar corrosion related laboratory experiments for bare rebar and embedded rebar respectively.
 
 <center>
-<img src="images/exp1.png" height="400px"/> 
+<img src="images/exp1.png" height="380px"/> 
 
 <b>Figure 1:</b> Data acquisition setup for accelerated corrosion in (a) bare rebar (b) embedded rebar
 </center>
