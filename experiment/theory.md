@@ -12,13 +12,13 @@ The corrosion of steel reinforcement is one of the main causes of damage and pre
 
 In the accelerated corrosion experiments of bare rebar, following components are used:
 
- - a. Copper rod acting as Cathode.
+ -  Copper rod acting as Cathode.
  
- - b. Bare rebar acting as Anode.
+ -  Bare rebar acting as Anode.
  
- - c. PZT patches bonded to rebar which is further connected to LCR meter by electrodes.
+ -  PZT patches bonded to rebar which is further connected to LCR meter by electrodes.
  
- - d. Beaker containing brine solution whose salinity is 35 parts per thousand.
+ -  Beaker containing brine solution whose salinity is 35 parts per thousand.
 
 
 For accelerated corrosion experiments in embedded rebars, the components are same except that a 150 x 150 x 150 mm concrete cube with an embedded bar replaces the bare rebar full-time the setup for accelerated corrosion for bare rebar and reinforced concrete is shown in Figure 2(a) and 2(b) respectively.
@@ -37,7 +37,7 @@ The user can visualize the process by plotting in excel and observe the changes 
 To statistically quantify damage, compute root mean square deviation (RMSD) in conductance by following equation directly in MS excel:
 
 
-<img src="images/th2.png" height="100px"/>
+<img src="images/th2.png" height="110px"/>
 
 where
 <br>
