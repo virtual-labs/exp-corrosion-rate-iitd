@@ -4,6 +4,6 @@
 
 3. Talakokula, V., Bhalla, S., and Gupta, A. (2014) "Corrosion Assessment of RC Structures Based on Equivalent Structural Parameters Using EMI Technique", <u>Journal of Intelligent Material Systems and Structures</u>, Vol. 25, No. 4 (Mar), pp. 484-500
 
-4. [Literature on piezoelectric sensors](http://demo.virtuality.org.in/iit/slr/SLR-011/webimages/piezo.pdf)
+4. <a href="images/piezo.pdf" target="_blank"> Literature on piezoelectric sensors</a>
 
 5. For manual <a href="images/manual_exp11.pdf" target="_blank">click here</a>
