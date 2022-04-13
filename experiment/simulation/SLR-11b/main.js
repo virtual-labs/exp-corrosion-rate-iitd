@@ -715,7 +715,8 @@ document.getElementById("step3_can11").style.visibility="visible";
 function reset()
 {
     // location.reload();
-    window.open("../simulation1.html");
+//     window.open("../simulation1.html");
+	window.location = '../index.html';
 }
 
 function submit2()
