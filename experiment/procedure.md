@@ -140,11 +140,15 @@ Step-2: (c) Click on next button.
 
 <img src="images/pr32.png">
 
-Step-2: (d) Click on next button.
+Click on next button.
 
 <img src="images/pr33.png">
 
 <img src="images/pr34.png">
+
+Select option and download report.
+
+Click restart button to perform experiment again.
 
 <img src="images/pr35.png">
 
