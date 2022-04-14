@@ -1,0 +1,27 @@
+[{
+	"question": "Q1. To acquire signature, the PZT Patch is connect with",
+	"answers": {
+		"a": "LCR meter",
+		"b": "Digital multimeter",
+		"c": "Power supply",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. One wire is attached to copper rod (anode) and other to bare rebar (cathode)",
+	"answers": {
+		"a": "True",
+		"b": "False"
+		
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3. Corrosion leads to",
+	"answers": {
+		"a": "Loss of mass",
+		"b": "Loss of stiffness",
+		"c": "Both a & b",
+		"d": "None of the above"
+	},
+	"correctAnswer": "c"
+}]
