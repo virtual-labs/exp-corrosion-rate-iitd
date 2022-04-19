@@ -390,7 +390,7 @@ $( "#bubles2_can11" ).fadeIn(1000);
 $( "#fog2_tripple_can11" ).fadeIn(1000);
 $( "#fog1_can11" ).fadeIn(1000);
 
-
+},7000);
 setTimeout(function()
 {
 
@@ -709,7 +709,7 @@ document.getElementById("step3_can11").style.visibility="visible";
 },900);
 },900);
 },900);
-},1700);
+ 
 }
 
 function reset()
