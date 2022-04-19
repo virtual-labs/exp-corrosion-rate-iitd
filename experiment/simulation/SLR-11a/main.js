@@ -343,30 +343,6 @@ $( "#fog2_tripple_can11" ).fadeIn(1000);
 $( "#fog1_can11" ).fadeIn(1000);
 
 
-document.getElementById("a1").style.visibility="visible";
-document.getElementById("a1").style.animation="a1 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a2").style.visibility="visible";
-document.getElementById("a2").style.animation="a2 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a3").style.visibility="visible";
-document.getElementById("a3").style.animation="a3 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a4").style.visibility="visible";
-document.getElementById("a4").style.animation="a4 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a5").style.visibility="visible";
-document.getElementById("a5").style.animation="a5 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a6").style.visibility="visible";
-document.getElementById("a6").style.animation="a6 1s infinite";
-setTimeout(function()
-{
 document.getElementById("a7").style.visibility="visible";
 document.getElementById("a7").style.animation="a7 1s infinite";
 setTimeout(function()
@@ -397,6 +373,30 @@ setTimeout(function()
 {
 document.getElementById("a14").style.visibility="visible";
 document.getElementById("a14").style.animation="a14 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a1").style.visibility="visible";
+document.getElementById("a1").style.animation="a1 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a2").style.visibility="visible";
+document.getElementById("a2").style.animation="a2 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a3").style.visibility="visible";
+document.getElementById("a3").style.animation="a3 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a4").style.visibility="visible";
+document.getElementById("a4").style.animation="a4 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a5").style.visibility="visible";
+document.getElementById("a5").style.animation="a5 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a6").style.visibility="visible";
+document.getElementById("a6").style.animation="a6 1s infinite";
 },900);
 
 },900);
@@ -434,7 +434,7 @@ $( "#fog2_tripple_can111" ).fadeOut(600);
 $( "#fog3_can111" ).fadeIn(1300);
 $( "#fog4_tripple_can111" ).fadeIn(1300);
 },500);
-},800);
+},8000);
 setTimeout(function()
 {
 document.getElementById("bubles3_can111").style.animation="bubles2_can111 1s forwards";
@@ -452,7 +452,7 @@ $( "#fog4_tripple_can111" ).fadeOut(600);
 $( "#fog5_can111" ).fadeIn(2000);
 $( "#fog6_tripple_can111" ).fadeIn(2000);
 },500);
-},1700);
+},8900);
 setTimeout(function()
 {
 document.getElementById("bubles5_can111").style.animation="bubles1_can111 1s forwards";
@@ -470,7 +470,7 @@ $( "#fog6_tripple_can111" ).fadeOut(600);
 $( "#fog7_can111" ).fadeIn(3500);
 $( "#fog8_tripple_can111" ).fadeIn(3500);
 },500);
-},2500);
+},9700);
 setTimeout(function()
 {
 document.getElementById("bubles7_can111").style.animation="agnbubles2_can111 2s forwards";
@@ -488,7 +488,7 @@ $( "#fog8_tripple_can111" ).fadeOut(600);
 $( "#fog9_can111" ).fadeIn(3500);
 $( "#fog10_tripple_can111" ).fadeIn(3500);
 },500);
-},4000);
+},11200);
 setTimeout(function()
 {
 document.getElementById("bubles9_can111").style.animation="bubles1_can111 2s forwards";
@@ -506,7 +506,7 @@ $( "#fog10_tripple_can111" ).fadeOut(600);
 $( "#fog1_can111" ).fadeIn(1000);
 $( "#fog2_tripple_can111" ).fadeIn(1000);
 },500);
-},6000);
+},13200);
 setTimeout(function()
 {
 setTimeout(function()
@@ -526,7 +526,7 @@ $( "#fog2_tripple_can111" ).fadeOut(600);
 $( "#fog3_can111" ).fadeIn(1300);
 $( "#fog4_tripple_can111" ).fadeIn(1300);
 },500);
-},800);
+},8000);
 setTimeout(function()
 {
 document.getElementById("bubles3_can111").style.animation="agnbubles2_can111 1s forwards";
@@ -544,7 +544,7 @@ $( "#fog4_tripple_can111" ).fadeOut(600);
 $( "#fog5_can111" ).fadeIn(2000);
 $( "#fog6_tripple_can111" ).fadeIn(2000);
 },500);
-},1700);
+},8900);
 setTimeout(function()
 {
 document.getElementById("bubles5_can111").style.animation="agnbubles1_can111 1s forwards";
@@ -562,7 +562,7 @@ $( "#fog6_tripple_can111" ).fadeOut(600);
 $( "#fog7_can111" ).fadeIn(3500);
 $( "#fog8_tripple_can111" ).fadeIn(3500);
 },500);
-},2500);
+},9700);
 setTimeout(function()
 {
 document.getElementById("bubles7_can111").style.animation="bubles2_can111 2s forwards";
@@ -580,7 +580,7 @@ $( "#fog8_tripple_can111" ).fadeOut(600);
 $( "#fog9_can111" ).fadeIn(3500);
 $( "#fog10_tripple_can111" ).fadeIn(3500);
 },500);
-},4000);
+},11200);
 setTimeout(function()
 {
 document.getElementById("bubles9_can111").style.animation="agnbubles1_can111 2s forwards";
@@ -600,7 +600,7 @@ $('#arrow2').show();
 $('#nextButton2').show();
 
 },500);
-},6000);
+},13200);
 },8000);
 }
 
