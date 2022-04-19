@@ -414,7 +414,7 @@ $( "#fog3_can11" ).fadeIn(1300);
 $( "#fog4_tripple_can11" ).fadeIn(1300);
 
 },500);
-},800);
+},8000);
 
 setTimeout(function()
 {
@@ -438,7 +438,7 @@ $( "#fog5_can11" ).fadeIn(2000);
 $( "#fog6_tripple_can11" ).fadeIn(2000);
 
 },500);
-},1700);
+},8900);
 
 setTimeout(function()
 {
@@ -461,7 +461,7 @@ $( "#fog7_can11" ).fadeIn(3500);
 $( "#fog8_tripple_can11" ).fadeIn(3500);
 
 },500);
-},2500);
+},9700);
 
 setTimeout(function()
 {
@@ -484,7 +484,7 @@ $( "#fog9_can11" ).fadeIn(3500);
 $( "#fog10_tripple_can11" ).fadeIn(3500);
 
 },500);
-},4000);
+},11200);
 
 setTimeout(function()
 {
@@ -507,7 +507,7 @@ $( "#fog1_can11" ).fadeIn(1000);
 $( "#fog2_tripple_can11" ).fadeIn(1000);
 
 },500);
-},6000);
+},13200);
 
 setTimeout(function()
 {
@@ -535,7 +535,7 @@ $( "#fog3_can11" ).fadeIn(1300);
 $( "#fog4_tripple_can11" ).fadeIn(1300);
 
 },500);
-},800);
+},8000);
 
 setTimeout(function()
 {
@@ -558,7 +558,7 @@ $( "#fog5_can11" ).fadeIn(2000);
 $( "#fog6_tripple_can11" ).fadeIn(2000);
 
 },500);
-},1700);
+},8900);
 
 setTimeout(function()
 {
@@ -581,7 +581,7 @@ $( "#fog7_can11" ).fadeIn(3500);
 $( "#fog8_tripple_can11" ).fadeIn(3500);
 
 },500);
-},2500);
+},9700);
 
 setTimeout(function()
 {
@@ -604,7 +604,7 @@ $( "#fog9_can11" ).fadeIn(3500);
 $( "#fog10_tripple_can11" ).fadeIn(3500);
 
 },500);
-},4000);
+},11200);
 
 setTimeout(function()
 {
@@ -623,34 +623,10 @@ $( "#fog9_can11" ).fadeOut(600);
 $( "#fog10_tripple_can11" ).fadeOut(600);
 
 },500);
-},6000);
+},13200);
 
 },8000);
 
-document.getElementById("a1_can11").style.visibility="visible";
-document.getElementById("a1_can11").style.animation="a1_can11 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a2_can11").style.visibility="visible";
-document.getElementById("a2_can11").style.animation="a2_can11 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a3_can11").style.visibility="visible";
-document.getElementById("a3_can11").style.animation="a3_can11 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a4_can11").style.visibility="visible";
-document.getElementById("a4_can11").style.animation="a4_can11 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a5_can11").style.visibility="visible";
-document.getElementById("a5_can11").style.animation="a5_can11 1s infinite";
-setTimeout(function()
-{
-document.getElementById("a6_can11").style.visibility="visible";
-document.getElementById("a6_can11").style.animation="a6_can11 1s infinite";
-setTimeout(function()
-{
 document.getElementById("reda1_can11").style.visibility="visible";
 document.getElementById("reda1_can11").style.animation="reda1_can11 1s infinite";
 setTimeout(function()
@@ -661,31 +637,55 @@ setTimeout(function()
 {
 document.getElementById("reda3_can11").style.visibility="visible";
 document.getElementById("reda3_can11").style.animation="reda3_can11 1s infinite";
-
 setTimeout(function()
 {
 document.getElementById("reda4_can11").style.visibility="visible";
 document.getElementById("reda4_can11").style.animation="reda4_can11 1s infinite";
-
 setTimeout(function()
 {
 document.getElementById("reda5_can11").style.visibility="visible";
 document.getElementById("reda5_can11").style.animation="reda5_can11 1s infinite";
-
 setTimeout(function()
 {
 document.getElementById("reda6_can11").style.visibility="visible";
 document.getElementById("reda6_can11").style.animation="reda6_can11 1s infinite";
-
 setTimeout(function()
 {
 document.getElementById("reda7_can11").style.visibility="visible";
 document.getElementById("reda7_can11").style.animation="reda7_can11 1s infinite";
-
 setTimeout(function()
 {
 document.getElementById("reda8_can11").style.visibility="visible";
 document.getElementById("reda8_can11").style.animation="reda8_can11 1s infinite";
+setTimeout(function()
+{
+document.getElementById("a1_can11").style.visibility="visible";
+document.getElementById("a1_can11").style.animation="a1_can11 1s infinite";
+
+setTimeout(function()
+{
+document.getElementById("a2_can11").style.visibility="visible";
+document.getElementById("a2_can11").style.animation="a2_can11 1s infinite";
+
+setTimeout(function()
+{
+document.getElementById("a3_can11").style.visibility="visible";
+document.getElementById("a3_can11").style.animation="a3_can11 1s infinite";
+
+setTimeout(function()
+{
+document.getElementById("a4_can11").style.visibility="visible";
+document.getElementById("a4_can11").style.animation="a4_can11 1s infinite";
+
+setTimeout(function()
+{
+document.getElementById("a5_can11").style.visibility="visible";
+document.getElementById("a5_can11").style.animation="a5_can11 1s infinite";
+
+setTimeout(function()
+{
+document.getElementById("a6_can11").style.visibility="visible";
+document.getElementById("a6_can11").style.animation="a6_can11 1s infinite";
 
 setTimeout(function()
 {
