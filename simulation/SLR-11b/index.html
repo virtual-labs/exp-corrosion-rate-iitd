@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Experiment 7</title>
+    
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"type="text/css">
+    
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Graph Script link start-->
+	<script language="javascript" type="text/javascript" src="t/excanvas.js"></script>
+	<script language="javascript" type="text/javascript" src="t/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="t/jquery.flot.js"></script>
+<!-- Graph Script link close -->
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+ 
+  $(window).load(function() {
+    $('#loading').hide();
+  });
+</script> 
+ 
+
+
+</head>
+
+<body style="margin:0; font-family: verdana;" >
+
+<table align="center">
+<tr><td>
+
+    <div id="simscreen">
+
+        <div id="title"><h3>Corrosion Assessment in Rebars of RC Structures Using PZT patches</h3></div>
+
+
+
+
+<!-- Scene 10 -->
+
+
+
+<div class="simsubscreen" id="canvas10" style="visibility: visible; width: 700px;margin-right: 50px;margin-left: 50px;" ></br>
+
+<div id="transis" style="
+    width: 700px;
+    height: 198px;
+    margin-right: 27px;
+    margin-left: 1px;
+    background-color: #ffffffc9;
+    border: 2px solid #ff6600;">
+
+<p class="incanvas" style="font-size:16px;"><strong>Objective:</strong></p>
+            <p class="incanvas" style="font-size:15px;">This simulation experiment is based on experimental data measured during actual accelerated corrosion tests carried out on reinforced concrete (RC) structures (embedded rebar).</p>
+             <p class="incanvas" style="font-size:15px;"><strong>Apparatus Used:</strong></p>
+            <p class="incanvas" style="font-size:15px; float:left;"><strong>1.</strong> An empty tank</p>
+            
+            <p class="incanvas" style="font-size:15px;  float:left; margin-left:15px;"><strong>2.</strong> Brine solution </p>
+
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:15px;"><strong>3.</strong> PZT patch</p>
+            <p class="incanvas" style="font-size:15px;float:left; margin-left:15px; "><strong>4.</strong> Power supply</p>
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:15px;"><strong>5.</strong> Copper rod as cathode </p>
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:11px;"><strong>6.</strong> Copper rod holder </p>
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:15px;"><strong>7.</strong> Concrete cube containing a rebar as anode</p>
+            
+<br><br><br>
+</div>  
+
+
+<img src="images/man.png"  id="" style=
+"   position: absolute;
+    left: 593px;
+    top: 85px;
+    height: 370px;
+
+"draggable="false"/>
+
+<img src="images/blank_tank.png"  id="" style=
+"   position: absolute;
+    left: 10px;
+    top: 430px;
+    height: 110px;
+
+"draggable="false"/>
+
+<img src="images/brine_solution.png"  id="" style=
+"   position: absolute;
+    left: 245px;
+    top: 430px;
+    height: 110px;
+
+"draggable="false"/>
+
+<img src="images/copper_rod.png"  id="" style=
+"   position: absolute;
+    left: 525px;
+    top: 253px;
+    height: 140px;
+    "draggable="false"/>
+
+<img src="images/PZT.png"  id="" style=
+"   position: absolute;
+    left: 400px;
+    top: 320px;
+    height: 80px;
+
+"draggable="false"/>
+
+<img src="images/iron_stand_with_shadow.png"  id="" style=
+"   position: absolute;
+    left: -15px;
+    top: 254px;
+    height: 135px;
+
+"draggable="false"/>
+
+<img src="images/barerebarp.png"  id="" style=
+"   position: absolute;
+    left: 250px;
+    top: 247px;
+    height: 145px;
+
+"draggable="false"/>
+
+
+<img src="images/meter24.png"  id="" style=
+"   position: absolute;
+    left: 380px;
+    top: 445px;
+    height: 95px;
+
+"draggable="false"/>
+
+
+<span id="" style=
+"   position: absolute;
+    left: 15px;
+    top: 225px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Copper rod holder</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 170px;
+    top: 225px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Concrete cube containing a rebar</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 495px;
+    top: 225px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Copper rod</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 385px;
+    top: 280px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > PZT patch</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 40px;
+    top: 400px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Empty tank</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 250px;
+    top: 400px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Brine solution</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 435px;
+    top: 415px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Power supply</span>
+
+ <!--Blinking arrowcubox  -->
+    <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px;left: 565px; top: 495px; 
+    color: #2150a0;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+<input type="button" id="nextButton10" style="position:absolute; left: 605px; top: 500px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Next&nbsp;" onclick="navNext10()"/>
+
+</div>
+
+
+
+
+<!-- Scene 11 -->
+
+
+
+<div class="simsubscreen" id="canvas11" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+ <!--arw1  -->
+    <span class="blink_me" id="arw1_can10" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addtank_can10" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_empty_tank()"/>
+
+<!-- //////////////////////////////////// -->
+
+
+ <!--arw2  -->
+    <span class="blink_me" id="arw2_can10" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+    <input type="button" id="add_iron_can10" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white; visibility: hidden;" 
+    value="&nbsp;Add&nbsp;" onclick="add_iron_2can10()"/>
+
+<!-- <input type="button" id="add_bare_stand" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white; visibility: hidden;" 
+    value="&nbsp;Add&nbsp;" onclick="add_bare_stand()"/> -->
+<!-- //////////////////////////////////// -->
+
+
+ <!--arw3  -->
+    <!-- <span class="blink_me" id="arw3" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+
+<!-- //////////////////////////////////// -->
+
+
+ <!--arw4  -->
+    <span class="blink_me" id="arw4_can10" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_stand_can10" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white; visibility: hidden;" 
+    value="&nbsp;Add&nbsp;" onclick="stand_vis_can10()"/>
+
+<!-- //////////////////////////////////// -->
+
+
+ <!--arw5 -->
+    <span class="blink_me" id="arw5_can10" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addrod_can10" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white; visibility: hidden;" 
+    value="&nbsp;Add&nbsp;" onclick="rodvis_can10()"/>
+
+<!-- //////////////////////////////////// -->
+
+<!--arw6 -->
+    <span class="blink_me" id="arw6_can10" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addsolution_can10" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white; visibility: hidden;" 
+    value="&nbsp;Add&nbsp;" onclick="addsolution_can10()"/>
+
+<!-- //////////////////////////////////// -->
+
+
+<span id="step1_can10" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (a) Click on add button to bring empty tank.</span>
+
+<span id="step2_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (b) Click on tank to place it on the position.</span>
+
+<span id="step3_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (c) Click on add button to bring brine solution.</span>
+
+<span id="step4_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (d)  Click on brine solution to pour it into the tank.</span>
+
+<span id="step5_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (e) Click on add button to bring concrete cube containing a rebar.</span>
+
+<span id="step6_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (f) Click on rebar to place it in the tank contaning brine solution.</span>
+
+<span id="step7_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (g) Click on add button to bring copper rod holder.</span>
+
+<span id="step8_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (h) Click on add button to bring copper rod.</span>
+
+<span id="step9_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (i) Click on copper rod to fix it on the copper rod holder.</span>
+
+<span id="step10_can10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (j) Click on next button.</span>
+
+
+</div> 
+
+
+<img src="images/blank_tank.png"  id="tank_can10" style=
+" position: absolute;
+  left: 499px;
+  top: 80px;
+  height: 210px;
+  width: 300px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/brine_solution.png"  id="solution_can10" style=
+" position: absolute;
+  left: 595px;
+  top: 80px;
+  height: 230px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/soltiltless.png"  id="soltiltless_can10" style=
+" position: absolute;
+  left: 252px;
+  top: 129px;
+  height: 275px;
+  transform: rotate(-3deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/soltiltmore.png"  id="soltiltmore_can10" style=
+" position: absolute;
+  left: 251px;
+  top: 128px;
+  height: 275px;
+  transform: rotate(-20deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/beaker.png"  id="beaker_can10" style=
+" position: absolute;
+  left: 300px;
+  top: 152px;
+  height: 231px;
+  transform: rotate(-75deg);
+  display: none;
+
+"draggable="false"/>
+
+<img src="images/solutionline.png"  id="solutionline_can10" style=
+" position: absolute;
+  left: 255px;
+  top: 328px;
+  height: 6px;
+  width: 25px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/solutionline.png"  id="solutionline2_can10" style=
+" position: absolute;
+  left: 249px;
+  top: 328px;
+  height: 185px;
+  width: 25px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/transbox.png"  id="tb_solutioncan10" style=
+" position: absolute;
+  left: 482px;
+  top: 296px;
+  height: 237px;
+  width: 205px;
+  border: 0px solid red;
+  visibility: hidden;
+" onclick="solution_plccan10()" />
+
+<img src="images/transbox.png"  id="tb_tank_can10" style=
+" position: absolute;
+  left: 435px;
+  top: 190px;
+  height: 220px;
+  width: 310px;
+  border: 0px solid red;
+  visibility: hidden;
+" onclick="tank_plc()" />
+
+<img src="images/barerebarp.png"  id="iron_can10" style=
+" position: absolute;
+  left: 668px;
+  top: 75px;
+  height: 315px;
+  visibility: hidden;
+"draggable="false"/>
+
+<img src="images/transbox.png"  id="tb_iron_can10" style=
+" position: absolute;
+  left: 589px;
+  top: 230px;
+  height: 300px;
+  width: 132px;
+  border: 0px solid red;
+  visibility: hidden;
+" onclick="iron_plccan10()" />
+
+<img src="images/copper_rod_stand.png"  id="stand_can10" style=
+" position: absolute;
+  left: 560px;
+  top: 85px;
+  height: 294px;
+  visibility: hidden;
+"draggable="false"/>
+
+<img src="images/copper_rod.png"  id="rod_can10" style=
+" position: absolute;
+  left: 643px;
+  top: 11px;
+  height: 260px;
+  transform: rotate(-85deg);
+  visibility: hidden;
+
+"draggable="false"/>
+
+
+<img src="images/tank_upper_layer.png"  id="tankup_can10" style=
+" position: absolute;
+  left: 30px;
+  top: 351px;
+  height: 189px;
+  width: 300px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/solution.png"  id="solutionwtr_can10" style=
+" position: absolute;
+  left: 43px;
+  top: 495px;
+  height: 41px;
+  width: 273px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 27px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/copper_stand_with_shadow.png"  id="stand_sdw_can10" style=
+" position: absolute;
+  left: 145px;
+  top: 220px;
+  height: 298px;
+  width: 353px;
+  visibility: hidden;
+
+"draggable="false"/>
+
+<img src="images/transbox.png"  id="tb_rodcan10" style=
+" position: absolute;
+  left: 485px;
+  top: 448px;
+  height: 36px;
+  width: 260px;
+  transform: rotate(5deg);
+  border: 0px solid red;
+  visibility: hidden;
+" onclick="rod_plccan10()" /> 
+
+<span class="blink_me" id="arwtb_tank_can10" style="position:absolute; font-size: 30px; left: 575px; top: 130px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_solutioncan10" style="position:absolute; font-size: 30px; left: 575px; top: 240px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_iron_can10" style="position:absolute; font-size: 30px; left: 640px; top: 170px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_rodcan10" style="position:absolute; font-size: 30px; left: 600px; top: 380px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<span class="blink_me" id="arrow11" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton11" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext11()"></i>
+
+
+</div> 
+
+
+
+<!-- Scene 12 -->
+
+
+
+<div class="simsubscreen" id="canvas12" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+
+<!-- //////////////////////////////////// -->
+
+<span id="step1_can11" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-2: </strong> (a) Click on black clip to attach wire with copper rod.</span>
+
+<span id="step2_can11" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-2: </strong> (b) Click on red clip to attach wire with rebar.</span>
+
+<span id="step3_can11" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-2: </strong> (c) Click on next button.</span>
+
+<span id="step4_can11" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-2: </strong> (d) Click on next button.</span>
+ 
+</div>
+
+
+<img src="images/blank_tank.png"  id="abc" style=
+" position: absolute;
+  left: 30px;
+  top: 326px;
+  height: 210px;
+  width: 300px;
+
+"draggable="false"/>
+
+<img src="images/redcliplose.png"  id="redclipclose2_can11" style=
+"   position: absolute;
+    left: 154px;
+    top: 151px;
+    transform: rotate(-7deg);
+    height: 40px;
+    visibility: hidden;
+ "draggable="false"/>
+
+<img src="images/barerebarp.png"  id="" style=
+" position: absolute;
+  left: 67px;
+  top: 188px;
+  height: 315px;
+  visibility: ;
+
+"draggable="false"/>
+
+<img src="images/blackclipclose.png"  id="blackclipclose2_can11" style=
+"   position: absolute;
+    left: 285px;
+    top: 172px;
+    transform: rotate(4deg);
+    height: 40px;
+    visibility: hidden;
+ "draggable="false"/>
+
+
+<img src="images/copper_rod.png"  id="" style=
+" position: absolute;
+  left: 248px;
+  top: 204px;
+  height: 260px;
+  visibility: ;
+
+"draggable="false"/>
+
+<img src="images/copper_stand_with_shadow.png"  id="" style=
+" position: absolute;
+  left: 150px;
+  top: 220px;
+  height: 298px;
+  width: 353px;
+  visibility: ;
+
+"draggable="false"/>
+
+ <img src="images/fog.png"  id="fog1_can11" style=
+"   position: absolute;
+    left: 40px;
+    top: 355px;
+    height: 65px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog_tripple.png"  id="fog2_tripple_can11" style=
+"   position: absolute;
+    left: 142px;
+    top: 360px;
+    height: 70px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog.png"  id="fog3_can11" style=
+"   position: absolute;
+    left: 52px;
+    top: 355px;
+    height: 55px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog_tripple.png"  id="fog4_tripple_can11" style=
+"   position: absolute;
+    left: 142px;
+    top: 360px;
+    height: 70px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog.png"  id="fog5_can11" style=
+"   position: absolute;
+    left: 52px;
+    top: 355px;
+    height: 55px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog_tripple.png"  id="fog6_tripple_can11" style=
+"   position: absolute;
+    left: 142px;
+    top: 360px;
+    height: 70px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog.png"  id="fog7_can11" style=
+"   position: absolute;
+    left: 52px;
+    top: 355px;
+    height: 55px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog_tripple.png"  id="fog8_tripple_can11" style=
+"   position: absolute;
+    left: 142px;
+    top: 360px;
+    height: 70px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog.png"  id="fog9_can11" style=
+"   position: absolute;
+    left: 52px;
+    top: 355px;
+    height: 55px;
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/fog_tripple.png"  id="fog10_tripple_can11" style=
+"   position: absolute;
+    left: 142px;
+    top: 360px;
+    height: 70px;
+    display: none;
+ "draggable="false"/>
+
+
+<img src="images/tank_upper_layer.png"  id="" style=
+" position: absolute;
+  left: 30px;
+  top: 351px;
+  height: 189px;
+  width: 300px;
+  visibility: ;
+
+"draggable="false"/>
+
+<img src="images/solution.png"  id="" style=
+" position: absolute;
+  left: 43px;
+  top: 393px;
+  height: 146px;
+  width: 273px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 27px;
+  visibility: ;
+
+"draggable="false"/>
+
+<img src="images/meter.png"  id="" style=
+" position: absolute;
+  left: 566px;
+    top: 401px;
+    height: 113px;
+  visibility: ;
+
+"draggable="false"/>
+
+<img src="images/offscr.png"  id="offscr_can11" style=
+" position: absolute;
+  left: 650px;
+  top: 278px;
+  width: 76px;
+  height: 39px;
+  visibility: hidden;
+
+"draggable="false"/>
+
+<img src="images/redwire.png"  id="" style=
+"   position: absolute;
+    left: 632px;
+    top: 169px;
+    height: 363px;
+ "draggable="false"/>
+
+<img src="images/blackwire.png"  id="" style=
+"   position: absolute;
+    left: 570px;
+    top: 195px;
+    height: 347px;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles1_can11" style=
+"   position: absolute;
+    left: 88px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles2_can11" style=
+"   position: absolute;
+    left: 215px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display:none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles9_can11" style=
+"   position: absolute;
+    left: 88px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles10_can11" style=
+"   position: absolute;
+    left: 215px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display:none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles5_can11" style=
+"   position: absolute;
+    left: 88px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles6_can11" style=
+"   position: absolute;
+    left: 215px;
+    top: 423px;
+    height: 115px;
+    transform: rotate(90deg);
+    display:none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles3_can11" style=
+"   position: absolute;
+    left: 88px;
+    top: 443px;
+    height: 115px;
+    transform: rotate(90deg);
+    display:none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles4_can11" style=
+"   position: absolute;
+    left: 215px;
+    top: 443px;
+    height: 115px;
+    transform: rotate(90deg);
+    display: none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles7_can11" style=
+"   position: absolute;
+    left: 88px;
+    top: 443px;
+    height: 115px;
+    transform: rotate(90deg);
+    display:none;
+ "draggable="false"/>
+
+ <img src="images/bubles1.png"  id="bubles8_can11" style=
+"   position: absolute;
+    left: 215px;
+    top: 443px;
+    height: 115px;
+    transform: rotate(90deg);
+    display: none;
+ "draggable="false"/>
+
+<div id="black_can11" style="position: absolute;
+    left: 565px;
+    top: 195px;
+    height: 4.5px;
+    width: 16px;
+    background-color: #383536;"></div>
+
+<img src="images/blackclipclose.png"  id="blackclipclose_can11" style=
+"   position: absolute;
+    left: 505px;
+    top: 172px;
+    transform: rotate(4deg);
+    height: 40px;
+ "draggable="false"/>
+
+<img src="images/blackclipopen.png"  id="blackclipopen_can11" style=
+"   position: absolute;
+    left: 295px;
+    top: 172px;
+    transform: rotate(4deg);
+    height: 40px;
+    visibility: hidden;
+ "draggable="false"/>
+
+ 
+<img src="images/transbox.png"  id="tb_blackclip_can11" style=
+"  position: absolute;
+   left: 505px;
+   top: 170px;
+   height: 50px;
+   width: 75px;
+   border: 0px solid red;
+   visibility: ;
+ " onclick="blackclip_movecan11()" />
+
+<div id="red_can11"style="position: absolute;
+    left: 626px;
+    top: 169px;
+    height: 3.5px;
+    width: 16px;
+    background-color: #EC3237;"></div>
+
+<img src="images/redcliplose.png"  id="redclipclose1_can11" style=
+"   position: absolute;
+    left: 563px;
+    top: 151px;
+    transform: rotate(-7deg);
+    height: 40px;
+ "draggable="false"/>
+
+<img src="images/redclipopen.png"  id="redclipopen_can11" style=
+"   position: absolute;
+    left: 164px;
+    top: 151px;
+    transform: rotate(-7deg);
+    height: 40px;
+    visibility: hidden;
+ "draggable="false"/>
+
+
+<img src="images/transbox.png"  id="tb_redclip_can11" style=
+"  position: absolute;
+   left: 560px;
+   top: 145px;
+   height: 50px;
+   width: 75px;
+   border: 0px solid red;
+   visibility:hidden;
+ " onclick="redclip_movecan11()" />
+
+ <img src="images/transbox.png"  id="tb_meter_can11" style=
+"  position: absolute;
+   left: 704px;
+   top: 354px;
+   height: 19px;
+   width: 25px;
+   border: 0px solid red;
+   visibility:hidden;
+ " onclick="meteron_can11()" />
+
+<span class="blink_me" id="a1_can11" style="
+    position: absolute;
+    font-size: 25px;
+    left: 390px;
+    top: 178px;
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="a2_can11" style="position: absolute;
+    font-size: 25px;
+    left: 500px;
+    top: 179px;
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="a3_can11" style="position: absolute;
+    font-size: 25px;
+    left: 606px;
+    top: 235px;
+    transform: rotate(2deg);
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="a4_can11" style="
+   position: absolute;
+    font-size: 25px;
+    left: 586px;
+    top: 320px;
+    transform: rotate(18deg);
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="a5_can11" style="position: absolute;
+    font-size: 25px;
+    left: 560px;
+    top: 430px;
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="a6_can11" style="position: absolute;
+    font-size: 25px;
+    left: 616px;
+    top: 519px;
+    transform: rotate(74deg);
+    color: black;
+    visibility:hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+<span class="blink_me" id="reda1_can11" style="
+    position: absolute;
+    font-size: 25px;
+    left: 746px;
+    top: 489px;
+    color: red;
+    transform: rotate(-162deg);
+    visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="reda2_can11" style="position: absolute;
+    font-size: 25px;
+    left: 750px;
+    top: 404px;
+    color: red;
+    transform: rotate(5deg);
+    visibility:hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+<span class="blink_me" id="reda3_can11" style="position: absolute;
+    font-size: 25px;
+    left: 762px;
+    top: 299px;
+    transform: rotate(-1deg);
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+<span class="blink_me" id="reda4_can11" style="
+   position: absolute;
+    font-size: 25px;
+    left: 721px;
+    top: 185px;
+    transform: rotate(-54deg);
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+<span class="blink_me" id="reda5_can11" style="position: absolute;
+    font-size: 25px;
+    left: 615px;
+    top: 152px;
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<span class="blink_me" id="reda6_can11" style="
+    position: absolute;
+    font-size: 25px;
+    left: 495px;
+    top: 152px;
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<span class="blink_me" id="reda7_can11" style="position: absolute;
+    font-size: 25px;
+    left: 380px;
+    top: 152px;
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<span class="blink_me" id="reda8_can11" style="position: absolute;
+    font-size: 25px;
+    left: 269px;
+    top: 152px;
+    transform: rotate(2deg);
+    color: red;
+    visibility:hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<span class="blink_me" id="arwtb_blackclip_can11" style="position:absolute; font-size: 30px; left: 528px; top: 130px; color: blue; visibility: ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_redclip_can11" style="position:absolute; font-size: 30px; left: 580px; top: 110px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_meter_can11" style="position:absolute; font-size: 30px; left: 734px; top: 340px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+
+
+<span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: black; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton12" style="color: black; position:absolute; left: 752px; top: 512px; font-size: 35px; visibility: hidden;" onclick="navNext12()"></i>
+
+
+</div> 
+
+
+
+<!-- Scene 13 -->
+
+
+
+<div class="simsubscreen" id="canvas13" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+<span id="" style="visibility: ; position: absolute; left: 175px; top: 25px; font-size: 35px; color: blue;">
+<strong>Condition of RC Specimen </strong> </span>
+
+<span id="state1_can13" style="visibility: ; position: absolute; left: 285px; top: 485px; font-size: 21px;">
+<strong> Pristine/Healthy State </strong> </span>
+
+<img src="images/concrete1.png"  id="concrete1_can13" style=
+"  position: absolute;
+   left: 245px;
+   top: 172px;
+   height: 300px;
+   visibility:;
+"draggable="false" />
+
+<span id="state2_can13" style="visibility:hidden; position: absolute; left: 310px; top: 485px; font-size: 21px;">
+<strong> After 45 Days </strong> </span>
+
+<img src="images/concrete2.png"  id="concrete2_can13" style=
+"  position: absolute;
+   left: 246px;
+   top: 172px;
+   height: 300px;
+   visibility:hidden;
+"draggable="false" />
+
+<span id="state3_can13" style="visibility:hidden; position: absolute; left: 250px; top: 485px; font-size: 21px;">
+<strong> Cracked Specimen after 120 Days</strong> </span>
+
+<img src="images/concrete3.png"  id="concrete3_can13" style=
+"  position: absolute;
+   left: 245px;
+   top: 171px;
+   height: 308px;
+   visibility:hidden;
+"draggable="false" />
+
+
+
+
+<span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton13" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility: hidden;" onclick="navNext13()"></i>
+
+
+</div> 
+
+
+
+
+<!-- Scene 14 -->
+
+
+
+<div class="simsubscreen" id="canvas14" style="visibility: hidden; /*background: url(images/bg.jpg)*/ background-color: rgb(184 211 222);" ></br>
+
+<span id="" style="visibility: ; position: absolute; left: 107px; top: 15px; font-size: 25px; color: blue;">
+<strong>Condition of concrete cube and rebar after splitting </strong> </span>
+
+<img src="images/pic1.png"  id="" style=
+"  position: absolute;
+   left: 60px;
+   top: 75px;
+   height: 185px;
+   visibility:;
+"draggable="false" />
+
+<span id="" style="visibility: ; position: absolute; left: 105px; top: 262px; font-size: 17px; color: black;">
+<strong>Cracked Specimen after <br> &nbsp; &nbsp; splitting at 45 days</strong> </span>
+
+<span id="" style="visibility: ; position: absolute; left: 508px; top: 262px; font-size: 17px; color: black;">
+<strong>Cracked Specimen after <br> &nbsp; &nbsp; splitting at 120 days</strong> </span>
+
+<span id="" style="visibility: ; position: absolute; left: 216px; top: 490px; font-size: 17px; color: black;">
+<strong>Corroded bar removed from specimen at 120 days</strong> </span>
+
+<img src="images/pic2.png"  id="" style=
+"  position: absolute;
+   left: 465px;
+   top: 75px;
+   height: 185px;
+   visibility:;
+"draggable="false" />
+
+<img src="images/pic3.png"  id="" style=
+"  position: absolute;
+   left: 198px;
+   top: 331px;
+   height: 155px;
+   visibility:;
+" draggable="false"/>
+
+
+
+<span class="blink_me" id="arrow14" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton14" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility: ;" onclick="navNext14()"></i>
+
+
+</div> 
+
+
+
+<!-- Scene 15 -->
+
+
+
+<div class="simsubscreen" id="canvas15" style="visibility: hidden; /*background: url(images/bg.jpg)*/ background-color: rgb(184 211 222);" ></br>
+
+<div id="transwhite" style="height: 500px">
+	<!-- <div id="" style="width: 750px; 
+    height: 510px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+     
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> -->
+ 
+<span style="position: absolute;
+    left: 200px;
+    top: 220px;
+    font-size: 14px;
+    padding: 5px;
+    width: 450px;
+    background-color: #080808;
+    border: 1px solid white;
+    color: white;"><center>Identified parallel combination of spring-mass-damper system</center></span>
+
+<img src="images/labeldigram.png"  id="" style=
+"  position: absolute; left: 275px; top: 35px;
+   height: 175px;
+   visibility:;
+"draggable="false" />
+
+<!-- <p style="position: absolute; 
+    left: 215px;
+    top: 245px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+    background-color: #080808;
+    border: 1px solid white;
+    color: white;">Select option for downloading the readings</p>-->
+
+<!-- <form action="/reading.php"> -->
+  
+  <label for="optn" style="position: absolute; left: 345px; top: 275px; font-weight: bold; color: black; font-size: 15px; ">Choose an option:</label>
+
+  <!-- <select name="val_can15" id="val" style="position: absolute; left: 0px; top: 305px; font-weight: bold; color: black; font-size: 15px; "> -->
+  <select id="val_can15" style=" position: absolute; left: 130px; top: 315px; width: 550px;">
+    <option value=""> -------Select Option------- </option>
+    <option value="v1_can15">Baseline Signature</option>
+    <option value="v2_can15">Signature after 45 days of corrosion exposure</option>
+    <option value="v3_can15">Signature after 120 days of corrosion exposure</option>
+    <option value="v4_can15">Compare baseline, after 45 days and after 120 days of corrosion exposure signatures</option>
+    <option value="v5_can15">Extraction of K and M values</option>
+    <option value="v6_can15">Calculation of corrosion rate</option>
+  </select>
+  
+  <!-- <input type="submit" value="Submit"> -->
+<!-- </form> -->
+
+   <span id="dtext" style="color: red; position: absolute; left: 365px; top: 445px;"></span>
+
+<input type="button" id="submit" style="position:absolute; left: 355px; top: 470px; cursor:pointer; font-size: 15px; background-color: #2150A0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Downloads&nbsp;" onclick="submit2()"/>
+
+<input type="button" id="restartbtn_can15" style="position:absolute; left: 635px; width: 100px; height: 36px; top: 470px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF; visibility: ;" value="&nbsp;Restart&nbsp;" onclick="reset()"/>
+ 
+</div>
+
+
+
+<span class="blink_me" id="arrow15" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton15" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext15()"></i>
+
+</div> 
+
+</div><!--- First Div---->
+
+</td></tr>
+</table>
+
+</body>
+</html>

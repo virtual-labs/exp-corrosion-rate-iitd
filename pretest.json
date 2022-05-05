@@ -1,0 +1,28 @@
+[{
+	"question": "Q1. In the accelerated corrosion experiments of bare rebar, components are used:",
+	"answers": {
+		"a": "Copper rod",
+		"b": "Bare rebar",
+		"c": "PZT patchs bonded to rebar",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q2. In this experiment which solvent is used?",
+	"answers": {
+		"a": "Brine solution",
+		"b": "HCI",
+		"c": "H2SO4",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q3. In the experiment the rebar is made as",
+	"answers": {
+		"a": "Anode",
+		"b": "Cathode",
+		"c": "Both a & b",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}]
